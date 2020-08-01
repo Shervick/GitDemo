@@ -1,0 +1,431 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-31T15:20:05.055Z",
+        "line": 11,
+        "name": "Varify if Add place  is beeging Successfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validate-place-api;varify-if-add-place--is-beeging-successfully-added-using-addplaceapi;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2798000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add Place Payload 56 \"37, side layout, cohen 14\" \"French-IN\" -46.383494 44.427362 \"Domeline house\" \"(+91) 983 893 3946\" \"Fanw park\" \"Sould\" \"http://google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "56",
+                  "offset": 18
+                },
+                {
+                  "val": "\"37, side layout, cohen 14\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"French-IN\"",
+                  "offset": 49
+                },
+                {
+                  "val": "-46.383494",
+                  "offset": 61
+                },
+                {
+                  "val": "44.427362",
+                  "offset": 72
+                },
+                {
+                  "val": "\"Domeline house\"",
+                  "offset": 82
+                },
+                {
+                  "val": "\"(+91) 983 893 3946\"",
+                  "offset": 99
+                },
+                {
+                  "val": "\"Fanw park\"",
+                  "offset": 120
+                },
+                {
+                  "val": "\"Sould\"",
+                  "offset": 132
+                },
+                {
+                  "val": "\"http://google.com\"",
+                  "offset": 140
+                }
+              ],
+              "location": "stepDefinations.StepDefination.add_place_payload(int,java.lang.String,java.lang.String,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3497000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User calls \"AddPlaceAPI\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_calls_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.StepDefination.the_api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1242000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"status\" in responce body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.StepDefination.in_responce_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 469000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify place_Id created maps to \"Domeline house\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Domeline house\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"getPlaceAPI\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinations.StepDefination.verify_placeid_created_maps_to_something_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T15:20:13.252Z",
+        "line": 12,
+        "name": "Varify if Add place  is beeging Successfully added using AddPlaceAPI",
+        "description": "",
+        "id": "validate-place-api;varify-if-add-place--is-beeging-successfully-added-using-addplaceapi;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Add Place Payload 57 \"38, side layout, cohen 15\" \"Spanish-IN\" -47.383494 45.427362 \"Loomline house\" \"(+91) 983 893 3947\" \"Vane park\" \"Sal\" \"http://google.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "57",
+                  "offset": 18
+                },
+                {
+                  "val": "\"38, side layout, cohen 15\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Spanish-IN\"",
+                  "offset": 49
+                },
+                {
+                  "val": "-47.383494",
+                  "offset": 62
+                },
+                {
+                  "val": "45.427362",
+                  "offset": 73
+                },
+                {
+                  "val": "\"Loomline house\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"(+91) 983 893 3947\"",
+                  "offset": 100
+                },
+                {
+                  "val": "\"Vane park\"",
+                  "offset": 121
+                },
+                {
+                  "val": "\"Sal\"",
+                  "offset": 133
+                },
+                {
+                  "val": "\"http://google.com\"",
+                  "offset": 139
+                }
+              ],
+              "location": "stepDefinations.StepDefination.add_place_payload(int,java.lang.String,java.lang.String,double,double,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 198000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User calls \"AddPlaceAPI\" with \"Post\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AddPlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_calls_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "The API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.StepDefination.the_api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"status\" in responce body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.StepDefination.in_responce_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify place_Id created maps to \"Loomline house\" using \"getPlaceAPI\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Loomline house\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"getPlaceAPI\"",
+                  "offset": 55
+                }
+              ],
+              "location": "stepDefinations.StepDefination.verify_placeid_created_maps_to_something_using_something(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddPlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-31T15:20:13.867Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinations.Hooks.beforeSenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Verify if Delete Place functionality is working",
+        "description": "",
+        "id": "validate-place-api;verify-if-delete-place-functionality-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "DeletePlace Payload",
+            "match": {
+              "location": "stepDefinations.StepDefination.deleteplace_payload()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 339000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User calls \"deletePlaceAPI\" with \"POST\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deletePlaceAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"POST\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinations.StepDefination.user_calls_with_post_http_request(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The API call is success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 41
+                }
+              ],
+              "location": "stepDefinations.StepDefination.the_api_call_is_success_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "\"status\" in responce body is \"OK\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"status\"",
+                  "offset": 0
+                },
+                {
+                  "val": "\"OK\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinations.StepDefination.in_responce_body_is(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeletePlace"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validate Place API",
+    "description": "",
+    "id": "validate-place-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,200 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 56,
+    "name": "Domeline house",
+    "phone_number": "(+91) 983 893 3946",
+    "address": "37, side layout, cohen 14",
+    "types": [
+        "Fanw park",
+        "Sould"
+    ],
+    "website": "http://google.com",
+    "language": "French-IN",
+    "location": {
+        "lat": -46.383494,
+        "lng": 44.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Fri, 31 Jul 2020 15:20:11 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "f3038e05c0ace6739f18cc3337dc8f61",
+    "scope": "APP",
+    "reference": "14a072e50594b8051d99f470cbbfb33014a072e50594b8051d99f470cbbfb330",
+    "id": "14a072e50594b8051d99f470cbbfb330"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=f3038e05c0ace6739f18cc3337dc8f61
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=f3038e05c0ace6739f18cc3337dc8f61
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 31 Jul 2020 15:20:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 257
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-46.383494",
+        "longitude": "44.427362"
+    },
+    "accuracy": "56",
+    "name": "Domeline house",
+    "phone_number": "(+91) 983 893 3946",
+    "address": "37, side layout, cohen 14",
+    "types": "Fanw park,Sould",
+    "website": "http://google.com",
+    "language": "French-IN"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 57,
+    "name": "Loomline house",
+    "phone_number": "(+91) 983 893 3947",
+    "address": "38, side layout, cohen 15",
+    "types": [
+        "Vane park",
+        "Sal"
+    ],
+    "website": "http://google.com",
+    "language": "Spanish-IN",
+    "location": {
+        "lat": -47.383494,
+        "lng": 45.427362
+    }
+}
+HTTP/1.1 200 OK
+Date: Fri, 31 Jul 2020 15:20:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "8b63e1bec9b5d901956eab5877a04653",
+    "scope": "APP",
+    "reference": "7293e5964337e1424303ee8c53af088c7293e5964337e1424303ee8c53af088c",
+    "id": "7293e5964337e1424303ee8c53af088c"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=8b63e1bec9b5d901956eab5877a04653
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=8b63e1bec9b5d901956eab5877a04653
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Fri, 31 Jul 2020 15:20:13 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 256
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-47.383494",
+        "longitude": "45.427362"
+    },
+    "accuracy": "57",
+    "name": "Loomline house",
+    "phone_number": "(+91) 983 893 3947",
+    "address": "38, side layout, cohen 15",
+    "types": "Vane park,Sal",
+    "website": "http://google.com",
+    "language": "Spanish-IN"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "8b63e1bec9b5d901956eab5877a04653"
+}
+HTTP/1.1 200 OK
+Date: Fri, 31 Jul 2020 15:20:14 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
